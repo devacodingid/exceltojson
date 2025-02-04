@@ -3,6 +3,7 @@ import json
 import zipfile
 import io
 import streamlit as st
+import openpyxl
 from io import BytesIO
 
 # Function to read data from Excel and process it based on column and ranges
