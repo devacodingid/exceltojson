@@ -81,7 +81,7 @@ def main():
             json_files.extend(process_sheet(st.session_state['excel_file'], sheet_name=sheet1_name, column_name=column1_name, 
                                             range_size=range_size, file_prefix='lineitem'))
             json_files.extend(process_sheet(st.session_state['excel_file'], sheet_name=sheet2_name, column_name=column2_name, 
-                                            range_size=range_size, file_prefix='changeorder'))
+                                            range_size=range_size, file_prefix='orderfile'))
 
             if json_files:
                 st.session_state['json_files'] = json_files
