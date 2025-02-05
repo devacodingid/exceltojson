@@ -73,7 +73,7 @@ def main():
             sheet1_name = 'lineitem'
             column1_name = 'loop_count'
             sheet2_name = 'changeorder'
-            column2_name = 'loops'
+            column2_name = 'loop'
 
             range_size = 5
 
